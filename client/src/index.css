@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  font-family: sons-serif;
+  margin: 10px;
+  padding: 0;
+  color: #333;
+}
+
+@media screen and (min-width: 400px){
+input{
+  border:1px solid #333 ;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.inputTitle{
+  border:1px solid #333 ;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+  width: 30%;
+}
+button{
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+} 
+.timer{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100vh
+}
+.title{
+  border: 1px solid #333;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.date{
+  border: 1px solid #333;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 50px;
+  font-size: 50px;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.list{
+  border: 1px solid #333;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 8px;
+  height: 80vh;
+  overflow: scroll;
+}
+.listItem{
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home{
+  border: 1px solid #333;
+  padding: 50px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 280px;
+  left: 0;
+  right: 0;
+  width: 50%;
+  margin: auto;
+}
+.filterpage{
+  border: 1px solid #333;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.event{
+  border: 1px solid #333;
+  padding: 30px;
+  margin: 5px;
+  border-radius: 8px;
+  text-align: center;
+}
+.back{
+  border: solid black 1px;
+  padding: 7px;
+  border-radius: 8px;
+}
+}
+
+/* style */
+
+@media screen and (max-width: 400px){
+  input{
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 55%;
+  }
+  .inputTitle{
+    border:1px solid #333 ;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  button{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+  } 
+  .timer{
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 8px;
+      text-align: center;
+      height: 100vh
+  }
+  .title{
+    border: 1px solid #333;
+    border-radius: 90px;
+    padding: 30px;
+    font-size: 30px;
+  }
+  
+  .date{
+    border: 1px solid #333;
+    margin: 5px;
+    border-radius: 90px;
+    padding: 50px;
+    font-size: 23px;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .list{
+    border: 1px solid #333;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 8px;
+    height: 80vh;
+    overflow: scroll;
+  }
+  .fakeList{
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home{
+    border: 1px solid #333;
+    padding: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+    height: 100hv;
+    height: 100vh;
+  }
+  .filterpage{
+    border: 1px solid #333;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .event{
+    border: 1px solid #333;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .back{
+    border: solid black 1px;
+    padding: 7px;
+    border-radius: 8px;
+  }
+}
